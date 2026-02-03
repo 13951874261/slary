@@ -85,7 +85,7 @@ JNIEXPORT jint JNI_OnLoad(JavaVM* vm, void* reserved) {
     return JNI_ERR;
   
   // FIX: Correct package name
-  jclass bridgeClass = env->FindClass("com/antigravity/offline/app/Bridge");
+  jclass bridgeClass = env->FindClass("com/antigravity/Bridge");
   if (!bridgeClass) return JNI_ERR;
 
   if (env->RegisterNatives(bridgeClass, g_bridgeMethods,
