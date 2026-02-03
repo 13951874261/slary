@@ -1,0 +1,7 @@
+{
+  "name": "SilenceGuard Pro (静默卫士)",
+  "description": "主权级直播风控阻断系统。毫秒级物理阻断，结合 H5 Sovereign Plugin 提供沉浸式策略管理，实现直播绝对安全。",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
