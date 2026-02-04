@@ -56,6 +56,9 @@ public class Bridge {
         onMessage(action, payloadJson);
     }
 
+    /** JNI: Load Model from path */
+    public native void loadModel(String path);
+
     @JavascriptInterface
     public void onMessage(String action, String payloadJson) {
         if (payloadJson == null) payloadJson = "{}";
